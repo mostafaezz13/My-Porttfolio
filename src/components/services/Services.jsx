@@ -1,7 +1,7 @@
 import "./services.css";
-// import { MdDesignServices } from "react-icons/md";
-// import { IoIosRocket } from "react-icons/io";
-// import { FaCode } from "react-icons/fa";
+import { MdDesignServices } from "react-icons/md";
+import { IoIosRocket } from "react-icons/io";
+import { FaCode } from "react-icons/fa";
 
 function Services() {
   return (
@@ -12,7 +12,7 @@ function Services() {
       </div>
       <div className="container container-services">
         <article className="card">
-          {/* <MdDesignServices className="icon" /> */}
+          <MdDesignServices className="icon" />
           <h3>Web Design</h3>
           <p className="text-light">
             I create visually appealing and user-friendly web designs that
@@ -20,7 +20,7 @@ function Services() {
           </p>
         </article>
         <article className="card">
-          {/* <IoIosRocket className="icon" /> */}
+          <IoIosRocket className="icon" />
           <h3>Fast Performance</h3>
           <p className="text-light">
             I optimize websites for speed and performance, ensuring fast load
@@ -28,7 +28,7 @@ function Services() {
           </p>
         </article>
         <article className="card">
-          {/* <FaCode className="icon" /> */}
+          <FaCode className="icon" />
           <h3>Clean Code</h3>
           <p className="text-light">
             I write clean, maintainable code that follows best practices, making

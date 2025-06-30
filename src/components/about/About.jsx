@@ -1,8 +1,8 @@
 import './about.css'
 import ImageMe from "../../assets/me-about.png"
-// import { FaAward } from "react-icons/fa";
-// import { FiUsers } from "react-icons/fi";
-// import { VscFolderLibrary } from "react-icons/vsc";
+import { FaAward } from "react-icons/fa";
+import { FiUsers } from "react-icons/fi";
+import { VscFolderLibrary } from "react-icons/vsc";
 function About() {
   return (
     <div>
@@ -20,17 +20,17 @@ function About() {
           <div className="about-content">
             <div className="about-cards">
               <div className="about-card">
-                {/* <FaAward className='about-icon' /> */}
+                <FaAward className='about-icon' />
                 <h5>Experiences</h5>
                 <small>3+ Years Working</small>
               </div>
               <div className="about-card">
-                {/* <FiUsers className='about-icon' /> */}
+                <FiUsers className='about-icon' />
                 <h5>Clients</h5>
                 <small>100+ Worldwide</small>
               </div>
               <div className="about-card">
-                {/* <VscFolderLibrary className='about-icon' /> */}
+                <VscFolderLibrary className='about-icon' />
                 <h5>Projects</h5>
                 <small>5+ Completed</small>
               </div>
