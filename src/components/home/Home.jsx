@@ -19,7 +19,7 @@ function Home() {
 
       <a href="#about" className="scroll_down">Scroll Down</a>
 
-      {/* <HomeSocials /> */}
+      <HomeSocials />
       </div>
     </div>
   );
