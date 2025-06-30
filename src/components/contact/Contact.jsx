@@ -1,7 +1,7 @@
 import "./contact.css";
-import BsWhatsapp from "react-icons/bs";
-import RiMessengerLine from "react-icons/ri";
-import MdOutlineEmail from "react-icons/md";
+import { BsWhatsapp } from "react-icons/bs";
+import { RiMessengerLine } from "react-icons/ri";
+import { MdOutlineEmail } from "react-icons/md";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
