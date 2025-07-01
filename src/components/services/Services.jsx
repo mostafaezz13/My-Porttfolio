@@ -11,7 +11,7 @@ function Services() {
         <h2>Services</h2>
       </div>
       <div className="container container-services">
-        <article className="card">
+        <article className="card" data-aos="fade-down" data-aos-duration="500">
           <MdDesignServices className="icon" />
           <h3>Web Design</h3>
           <p className="text-light">
@@ -19,7 +19,7 @@ function Services() {
             enhance user experience and engagement.
           </p>
         </article>
-        <article className="card">
+        <article className="card" data-aos="fade-down" data-aos-duration="800">
           <IoIosRocket className="icon" />
           <h3>Fast Performance</h3>
           <p className="text-light">
@@ -27,7 +27,7 @@ function Services() {
             times and smooth interactions.
           </p>
         </article>
-        <article className="card">
+        <article className="card" data-aos="fade-down" data-aos-duration="1000">
           <FaCode className="icon" />
           <h3>Clean Code</h3>
           <p className="text-light">

@@ -61,7 +61,7 @@ function Projects() {
         <div className="container projects-container">
           {ProjectsData.map(({ id, image, title, github, demo }) => {
             return (
-              <article className="portfolio-item" key={id}>
+              <article className="portfolio-item" key={id} data-aos="fade-up">
                 <div className="portfolio-item-img">
                   <img src={image} alt={title} />
                 </div>

@@ -69,7 +69,7 @@ function Skills() {
         </div>
         <div className="container container-skills">
           {SkillsData.map(({ id, img, title, disc }) => (
-            <article className="card-skill">
+            <article className="card-skill" data-aos="zoom-out">
               <div className="icon">
                 <img src={img} alt="" />
               </div>
