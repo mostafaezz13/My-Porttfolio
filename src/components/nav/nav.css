@@ -13,7 +13,7 @@ nav {
   border-radius: 3rem;
   backdrop-filter: blur(15px);
 }
-nav a{
+nav a {
   background: transparent;
   padding: 0.8rem;
   border-radius: 50%;
@@ -21,12 +21,12 @@ nav a{
   font-size: 1.1rem;
   display: flex;
 }
-nav a:hover{
+nav a:hover {
   background: rgba(0, 0, 0, 0.3);
   color: var(--color-white);
   transition: all 0.3s ease-in-out;
 }
-nav a.active{
+nav a.active {
   background: var(--color-primary);
   color: var(--color-white);
 }

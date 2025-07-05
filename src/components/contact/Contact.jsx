@@ -115,8 +115,7 @@ function Contact() {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              data-aos="fade-left"
-              data-aos-duration="500"
+              data-aos="zoom-out"
             />
             {errors.name && (
               <small style={{ color: "red" }}>{errors.name}</small>
@@ -128,8 +127,7 @@ function Contact() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              data-aos="fade-left"
-              data-aos-duration="800"
+              data-aos="zoom-out"
             />
             {errors.email && (
               <small style={{ color: "red" }}>{errors.email}</small>
@@ -141,8 +139,7 @@ function Contact() {
               placeholder="Your Message"
               value={formData.message}
               onChange={handleChange}
-              data-aos="fade-left"
-              data-aos-duration="1000"
+              data-aos="zoom-out"
             ></textarea>
             {errors.message && (
               <small style={{ color: "red" }}>{errors.message}</small>
